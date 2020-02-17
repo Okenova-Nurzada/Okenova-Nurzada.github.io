@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+  }
+  header{
+   height: 200px;
+     background-image:url(comp.jpg);
+  }
+  
+  nav {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #E8E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .text {
+    margin-left: 36px;
+    font-size: 31px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1F1F1F;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 38px;
+  }
+  
+  nav ul li a {
+    color: #adadad;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  nav ul a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  nav a.active {
+    color: #1F1F1F;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 38px 36px;
+    box-sizing: border-box;
+  }
+  
+  aside {
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #E8E8E8;
+    box-sizing: border-box;
+    min-width: 300px;
+    max-width: 320px;
+    height: 282px;
+    margin-right: 40px;
+    padding: 45px 36px;
+  }
+  
+  aside p {
+    font-size: 18px;
+    margin: 40px 0 0;
+    line-height: 27px;
+    color: #1F1F1F;
+  }
+  
+  
+  aside h3 {
+    margin: 24px 0 0;
+    font-size:31px;
+  }
+  
+  .post {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 24px;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    border: 2px solid #E8E8E8;
+  }
+  
+  
+  .post h2 {
+    font-size: 31px;
+    margin: 15px;
+  }
+  
+  .blog-type {
+    color: #adadad;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  
+  
+  .post p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F1F;
+    margin-right: 100px;
+    
+  }
+  
+  
+  
+  .post-img-box {
+    min-width: 268px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100px;
+  }
+  
+  footer{
+      height: 100px;
+      width: 100%;
+      background-color: black;
+  }
+  
+  
+  footer ul{
+    display: flex;
+   justify-content: center;
+   padding-top: 30px;
+  }
+  footer li{
+    list-style: none;
+  }
+  footer li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  section img{
+    width: 100px;
+    height: 100ppx;
+    float: left;
+    padding-right: 20px;
+  }
